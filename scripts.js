@@ -1,7 +1,7 @@
 // alert('hello!')
 
 let itemName = prompt("Please enter the name of the item:");
-let basePrice = Number(prompt("What is the base price of the item?"));
+let basePrice = Number(prompt("What is the base price of the item?")).toFixed(2);
 let blackFriday = prompt("Is today Black Friday? Answer yes or no.");
 let searchEngine = prompt("Did the purchaser find the item through a search engine? Answer yes or no.")
 let compareSite = prompt("Did the purchaser visit a comparison-shopping site? Answer yes or no.")
